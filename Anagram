@@ -1,0 +1,14 @@
+1. What is an Anagram?
+An anagram is a word formed by rearranging the letters of another word, using every letter exactly the same number of times.
+
+"Given two strings, write a Python program to determine whether they are anagrams."
+s = "listen"
+t = "silent"
+True
+Using sorted() — Easiest Approach
+
+def is_anagram(s,t):
+  return sorted(s)==sorted(t)
+print(is_anagram("listen","silent")
+
+
